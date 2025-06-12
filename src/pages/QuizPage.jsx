@@ -27,7 +27,7 @@ export default function QuizPage() {
       navigate(ROUTES.RESULT, {
         state: {
           maxQuizLen: MAX_QUIZ_LEN,
-          correctNum: correctNum
+          correctNumLen: correctNum.length
         }
       });
     }
